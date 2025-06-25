@@ -6707,7 +6707,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67802a42aef414d4081723884e9eb8d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gazeColor: {r: 1, g: 0.26226407, b: 0.65917736, a: 1}
+  gazeColor: {r: 1, g: 1, b: 0.38823533, a: 1}
 --- !u!65 &1927836879
 BoxCollider:
   m_ObjectHideFlags: 0
