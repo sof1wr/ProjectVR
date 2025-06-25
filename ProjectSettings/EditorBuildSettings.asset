@@ -4,7 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/0 PLANET SCENES/MOON.unity
+    guid: 9387e32bf88b31d419f0e218ba423842
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: fbb22f4be9e289c4aa62673c6fd8ca41, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 1bfcbb4aeb3cf8e4b96de167017c83e3, type: 2}
