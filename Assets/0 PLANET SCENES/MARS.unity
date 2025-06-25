@@ -422,7 +422,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1001 &1623894009
+--- !u!1001 &1769714509
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -470,13 +470,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6176211933599512070, guid: 0bd2502d60814cf4e8357da0385f8ad6, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6736061936264290366, guid: 0bd2502d60814cf4e8357da0385f8ad6, type: 3}
       propertyPath: m_Name
-      value: Terrain
+      value: Terrain MARS
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -677,5 +673,5 @@ SceneRoots:
   - {fileID: 1359876781}
   - {fileID: 1989931819}
   - {fileID: 1177302751}
-  - {fileID: 1623894009}
+  - {fileID: 1769714509}
   - {fileID: 1833999403}
