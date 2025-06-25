@@ -192,7 +192,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6786730008460892788, guid: df58fcd1ecec5214ba9d91200f6d5b63, type: 3}
       propertyPath: m_Name
-      value: Prefab
+      value: planets button
       objectReference: {fileID: 0}
     - target: {fileID: 8375158752330038481, guid: df58fcd1ecec5214ba9d91200f6d5b63, type: 3}
       propertyPath: m_LocalPosition.x
