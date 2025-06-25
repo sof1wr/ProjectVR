@@ -237,8 +237,100 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2492438214076694969, guid: df58fcd1ecec5214ba9d91200f6d5b63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 372374108}
+    - targetCorrespondingSourceObject: {fileID: 2492438214076694969, guid: df58fcd1ecec5214ba9d91200f6d5b63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 372374107}
+    - targetCorrespondingSourceObject: {fileID: 460798811109652487, guid: df58fcd1ecec5214ba9d91200f6d5b63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 372374110}
+    - targetCorrespondingSourceObject: {fileID: 460798811109652487, guid: df58fcd1ecec5214ba9d91200f6d5b63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 372374111}
   m_SourcePrefab: {fileID: 100100000, guid: df58fcd1ecec5214ba9d91200f6d5b63, type: 3}
+--- !u!1 &372374106 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2492438214076694969, guid: df58fcd1ecec5214ba9d91200f6d5b63, type: 3}
+  m_PrefabInstance: {fileID: 372374105}
+  m_PrefabAsset: {fileID: 0}
+--- !u!135 &372374107
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372374106}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &372374108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372374106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84388d685274ce14785cb8f3e3239df8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: EARTH
+  gazeDuration: 2
+--- !u!1 &372374109 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 460798811109652487, guid: df58fcd1ecec5214ba9d91200f6d5b63, type: 3}
+  m_PrefabInstance: {fileID: 372374105}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &372374110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372374109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84388d685274ce14785cb8f3e3239df8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: MOON
+  gazeDuration: 2
+--- !u!135 &372374111
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372374109}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &413093781
 GameObject:
   m_ObjectHideFlags: 0

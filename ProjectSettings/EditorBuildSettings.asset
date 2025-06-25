@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
+    path: Assets/0 PLANET SCENES/SPACESHIP.unity
+    guid: 9bfe6e0036b308646b356e69d5be0976
+  - enabled: 1
     path: Assets/0 PLANET SCENES/MOON.unity
     guid: 9387e32bf88b31d419f0e218ba423842
   - enabled: 1
