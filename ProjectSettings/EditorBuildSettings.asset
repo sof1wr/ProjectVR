@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/0 PLANET SCENES/MOON.unity
     guid: 9387e32bf88b31d419f0e218ba423842
-  - enabled: 1
+  - enabled: 0
     path: Assets/0 PLANET SCENES/EARTH.unity
     guid: 9d0116c14fd82384db6dff462a30b141
   m_configObjects:
